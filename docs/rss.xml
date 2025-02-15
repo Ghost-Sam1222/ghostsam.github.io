@@ -1,2 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Ghost-Sam的博客</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link><description>记录一个普通大学生的学习生活，输出倒逼输入！</description><copyright>Ghost-Sam的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/98/9d/a1/989da1dd-6b98-6a38-2e76-a7c9b8ab7517/mzl.pfnuokud.jpg/380x380cc.webp</url><title>avatar</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link></image><lastBuildDate>Fri, 14 Feb 2025 16:23:41 +0000</lastBuildDate><managingEditor>Ghost-Sam的博客</managingEditor><ttl>60</ttl><webMaster>Ghost-Sam的博客</webMaster><item><title>使用R2S刷入immortalwrt接入openclash，alist</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</link><guid isPermaLink="true">https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</guid><pubDate>Fri, 14 Feb 2025 15:53:47 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Ghost-Sam的博客</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link><description>记录一个普通大学生的学习生活，输出倒逼输入！</description><copyright>Ghost-Sam的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/98/9d/a1/989da1dd-6b98-6a38-2e76-a7c9b8ab7517/mzl.pfnuokud.jpg/380x380cc.webp</url><title>avatar</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link></image><lastBuildDate>Sat, 15 Feb 2025 16:18:23 +0000</lastBuildDate><managingEditor>Ghost-Sam的博客</managingEditor><ttl>60</ttl><webMaster>Ghost-Sam的博客</webMaster><item><title>刷入并配置immortalwrt进行上网</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shua-ru-bing-pei-zhi-immortalwrt-jin-xing-shang-wang.html</link><description># **硬件设备准备**
+友善Nano R2S、**8gTF卡、TF卡读卡器**（配套SD卡套）、网线若干
+# 硬件连接方式
+R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网口相连
+# **软件安装准备**
+[格式化软件](https://www.sdcardformatter.com/) [烧录软件](https://etcher.balena.io/#download-etcher)
+[immortalwrt选择特定型号的EXT4](https://firmware-selector.immortalwrt.org/)
+![Image](https://github.com/user-attachments/assets/b6557949-3d8d-4528-b983-71c477345369)
+[刷入系统详细操作](https://www.youtube.com/watch?v=7J_eIJn-vfg&amp;t)
+- [刷入系统 ] 
+-  1. 将TF卡（嵌入SD转接卡套）插入读卡器内
+-  2. 将读卡器插入电脑u盘插口
+-  3. 运行格式化软件（sdcardformatter）
+![Image](https://github.com/user-attachments/assets/2de12e92-d823-4c4d-998e-60d3932a0d6f)
+-  4.运行烧录软件（balena Etcher）
+![Image](https://github.com/user-attachments/assets/4a15ea76-144c-449c-bc43-d825a6aa8d67)
+-  5.拔出读卡器里的SD卡，插入到R2S的SD读卡槽
+##  
+ [软件配置进行上网](https://www.youtube.com/watch?v=7wiu1YA8Pbc&amp;t)
+。</description><guid isPermaLink="true">https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shua-ru-bing-pei-zhi-immortalwrt-jin-xing-shang-wang.html</guid><pubDate>Fri, 14 Feb 2025 17:04:20 +0000</pubDate></item><item><title>使用R2S刷入immortalwrt接入openclash，alist</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</link><guid isPermaLink="true">https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</guid><pubDate>Fri, 14 Feb 2025 15:53:47 +0000</pubDate></item></channel></rss>
