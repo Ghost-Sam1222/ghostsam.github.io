@@ -28,3 +28,6 @@ R2S的lan口与小米AX3000T的lan口相连，小米AX3000T的另一个lan口与
 ![Image](https://github.com/user-attachments/assets/66ba2281-7bf7-42c2-917a-d62ec9550982)
 保存并应用，选择更改（90s未登录还原luci登录地址192.168.1.1）用192.168.31.8登录luci界面
 ## 配置好后概览处eth1（lan口）有ipv4地址临时性DNS114.114.114.114。上网成功！
+**更换界面主题openwrt同款**
+
+![Image](https://github.com/user-attachments/assets/3e3f0a7a-3a8d-4888-b7eb-3fb0b50ea815)
