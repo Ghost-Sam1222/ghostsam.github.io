@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Ghost-Sam的博客</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link><description>记录一个普通大学生的学习生活，输出倒逼输入！</description><copyright>Ghost-Sam的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/98/9d/a1/989da1dd-6b98-6a38-2e76-a7c9b8ab7517/mzl.pfnuokud.jpg/380x380cc.webp</url><title>avatar</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link></image><lastBuildDate>Sat, 15 Feb 2025 16:18:23 +0000</lastBuildDate><managingEditor>Ghost-Sam的博客</managingEditor><ttl>60</ttl><webMaster>Ghost-Sam的博客</webMaster><item><title>刷入并配置immortalwrt进行上网</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shua-ru-bing-pei-zhi-immortalwrt-jin-xing-shang-wang.html</link><description># **硬件设备准备**
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Ghost-Sam的博客</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link><description>记录一个普通大学生的学习生活，输出倒逼输入！</description><copyright>Ghost-Sam的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/98/9d/a1/989da1dd-6b98-6a38-2e76-a7c9b8ab7517/mzl.pfnuokud.jpg/380x380cc.webp</url><title>avatar</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io</link></image><lastBuildDate>Sun, 16 Feb 2025 10:01:16 +0000</lastBuildDate><managingEditor>Ghost-Sam的博客</managingEditor><ttl>60</ttl><webMaster>Ghost-Sam的博客</webMaster><item><title>刷入并配置immortalwrt进行上网</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shua-ru-bing-pei-zhi-immortalwrt-jin-xing-shang-wang.html</link><description># **硬件设备准备**
 友善Nano R2S、**8gTF卡、TF卡读卡器**（配套SD卡套）、网线若干
 # 硬件连接方式
-R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网口相连
+R2S的lan口与小米AX3000T的lan口相连，小米AX3000T的另一个lan口与电脑网口相连（_十分重要_，**不能R2Slan口和电脑网口直连否则会影响后续设置lan口ip**）使用ipconfig可以看网段登录（我获取到的是192.168.1.X所以我网址输入192.168.1.1可以正常连接至luci界面）
 # **软件安装准备**
 [格式化软件](https://www.sdcardformatter.com/) [烧录软件](https://etcher.balena.io/#download-etcher)
 [immortalwrt选择特定型号的EXT4](https://firmware-selector.immortalwrt.org/)
@@ -18,4 +18,14 @@ R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网�
 -  5.拔出读卡器里的SD卡，插入到R2S的SD读卡槽
 ##  
  [软件配置进行上网](https://www.youtube.com/watch?v=7wiu1YA8Pbc&amp;t)
-。</description><guid isPermaLink="true">https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shua-ru-bing-pei-zhi-immortalwrt-jin-xing-shang-wang.html</guid><pubDate>Fri, 14 Feb 2025 17:04:20 +0000</pubDate></item><item><title>使用R2S刷入immortalwrt接入openclash，alist</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</link><guid isPermaLink="true">https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</guid><pubDate>Fri, 14 Feb 2025 15:53:47 +0000</pubDate></item></channel></rss>
+# 上网设置(及时保存，每一页离开前都要保存)
+
+![Image](https://github.com/user-attachments/assets/cbb1ae36-b98f-47a9-861e-d66a01436668)
+
+![Image](https://github.com/user-attachments/assets/3a721b5e-5aaa-42ce-8382-3f696aaa35bc)
+
+![Image](https://github.com/user-attachments/assets/b1f73fe0-c986-4638-87df-d9c3b87bbfd7)
+
+![Image](https://github.com/user-attachments/assets/66ba2281-7bf7-42c2-917a-d62ec9550982)
+保存并应用，选择更改（90s未登录还原luci登录地址192.168.1.1）用192.168.31.8登录luci界面
+## 配置好后概览处eth1（lan口）有ipv4地址临时性DNS114.114.114.114。</description><guid isPermaLink="true">https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shua-ru-bing-pei-zhi-immortalwrt-jin-xing-shang-wang.html</guid><pubDate>Fri, 14 Feb 2025 17:04:20 +0000</pubDate></item><item><title>使用R2S刷入immortalwrt接入openclash，alist</title><link>https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</link><guid isPermaLink="true">https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shi-yong-R2S-shua-ru-immortalwrt-jie-ru-openclash%EF%BC%8Calist.html</guid><pubDate>Fri, 14 Feb 2025 15:53:47 +0000</pubDate></item></channel></rss>

@@ -13,7 +13,7 @@
 <meta name="description" content="# **硬件设备准备**
 友善Nano R2S、**8gTF卡、TF卡读卡器**（配套SD卡套）、网线若干
 # 硬件连接方式
-R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网口相连
+R2S的lan口与小米AX3000T的lan口相连，小米AX3000T的另一个lan口与电脑网口相连（_十分重要_，**不能R2Slan口和电脑网口直连否则会影响后续设置lan口ip**）使用ipconfig可以看网段登录（我获取到的是192.168.1.X所以我网址输入192.168.1.1可以正常连接至luci界面）
 # **软件安装准备**
 [格式化软件](https://www.sdcardformatter.com/) [烧录软件](https://etcher.balena.io/#download-etcher)
 [immortalwrt选择特定型号的EXT4](https://firmware-selector.immortalwrt.org/)
@@ -29,12 +29,22 @@ R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网�
 -  5.拔出读卡器里的SD卡，插入到R2S的SD读卡槽
 ##  
  [软件配置进行上网](https://www.youtube.com/watch?v=7wiu1YA8Pbc&t)
-。">
+# 上网设置(及时保存，每一页离开前都要保存)
+
+![Image](https://github.com/user-attachments/assets/cbb1ae36-b98f-47a9-861e-d66a01436668)
+
+![Image](https://github.com/user-attachments/assets/3a721b5e-5aaa-42ce-8382-3f696aaa35bc)
+
+![Image](https://github.com/user-attachments/assets/b1f73fe0-c986-4638-87df-d9c3b87bbfd7)
+
+![Image](https://github.com/user-attachments/assets/66ba2281-7bf7-42c2-917a-d62ec9550982)
+保存并应用，选择更改（90s未登录还原luci登录地址192.168.1.1）用192.168.31.8登录luci界面
+## 配置好后概览处eth1（lan口）有ipv4地址临时性DNS114.114.114.114。">
 <meta property="og:title" content="刷入并配置immortalwrt进行上网">
 <meta property="og:description" content="# **硬件设备准备**
 友善Nano R2S、**8gTF卡、TF卡读卡器**（配套SD卡套）、网线若干
 # 硬件连接方式
-R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网口相连
+R2S的lan口与小米AX3000T的lan口相连，小米AX3000T的另一个lan口与电脑网口相连（_十分重要_，**不能R2Slan口和电脑网口直连否则会影响后续设置lan口ip**）使用ipconfig可以看网段登录（我获取到的是192.168.1.X所以我网址输入192.168.1.1可以正常连接至luci界面）
 # **软件安装准备**
 [格式化软件](https://www.sdcardformatter.com/) [烧录软件](https://etcher.balena.io/#download-etcher)
 [immortalwrt选择特定型号的EXT4](https://firmware-selector.immortalwrt.org/)
@@ -50,7 +60,17 @@ R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网�
 -  5.拔出读卡器里的SD卡，插入到R2S的SD读卡槽
 ##  
  [软件配置进行上网](https://www.youtube.com/watch?v=7wiu1YA8Pbc&t)
-。">
+# 上网设置(及时保存，每一页离开前都要保存)
+
+![Image](https://github.com/user-attachments/assets/cbb1ae36-b98f-47a9-861e-d66a01436668)
+
+![Image](https://github.com/user-attachments/assets/3a721b5e-5aaa-42ce-8382-3f696aaa35bc)
+
+![Image](https://github.com/user-attachments/assets/b1f73fe0-c986-4638-87df-d9c3b87bbfd7)
+
+![Image](https://github.com/user-attachments/assets/66ba2281-7bf7-42c2-917a-d62ec9550982)
+保存并应用，选择更改（90s未登录还原luci登录地址192.168.1.1）用192.168.31.8登录luci界面
+## 配置好后概览处eth1（lan口）有ipv4地址临时性DNS114.114.114.114。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://Ghost-Sam1222.github.io/ghostsam.github.io/post/shua-ru-bing-pei-zhi-immortalwrt-jin-xing-shang-wang.html">
 <meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/98/9d/a1/989da1dd-6b98-6a38-2e76-a7c9b8ab7517/mzl.pfnuokud.jpg/380x380cc.webp">
@@ -114,7 +134,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><h1><strong>硬件设备准备</strong></h1>
 <p>友善Nano R2S、<strong>8gTF卡、TF卡读卡器</strong>（配套SD卡套）、网线若干</p>
 <h1>硬件连接方式</h1>
-<p>R2Slan口与主路由的lan口相连，主路由的另一个lan口与电脑网口相连</p>
+<p>R2S的lan口与小米AX3000T的lan口相连，小米AX3000T的另一个lan口与电脑网口相连（<em>十分重要</em>，<strong>不能R2Slan口和电脑网口直连否则会影响后续设置lan口ip</strong>）使用ipconfig可以看网段登录（我获取到的是192.168.1.X所以我网址输入192.168.1.1可以正常连接至luci界面）</p>
 <h1><strong>软件安装准备</strong></h1>
 <p><a href="https://www.sdcardformatter.com/" rel="nofollow">格式化软件</a> <a href="https://etcher.balena.io/#download-etcher" rel="nofollow">烧录软件</a><br>
 <a href="https://firmware-selector.immortalwrt.org/" rel="nofollow">immortalwrt选择特定型号的EXT4</a><br>
@@ -143,7 +163,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>5.拔出读卡器里的SD卡，插入到R2S的SD读卡槽</li>
 </ul>
 <h2></h2>
-<p><a href="https://www.youtube.com/watch?v=7wiu1YA8Pbc&amp;t" rel="nofollow">软件配置进行上网</a></p></div>
+<p><a href="https://www.youtube.com/watch?v=7wiu1YA8Pbc&amp;t" rel="nofollow">软件配置进行上网</a></p>
+<h1>上网设置(及时保存，每一页离开前都要保存)</h1>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/cbb1ae36-b98f-47a9-861e-d66a01436668"><img src="https://github.com/user-attachments/assets/cbb1ae36-b98f-47a9-861e-d66a01436668" alt="Image" style="max-width: 100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/3a721b5e-5aaa-42ce-8382-3f696aaa35bc"><img src="https://github.com/user-attachments/assets/3a721b5e-5aaa-42ce-8382-3f696aaa35bc" alt="Image" style="max-width: 100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b1f73fe0-c986-4638-87df-d9c3b87bbfd7"><img src="https://github.com/user-attachments/assets/b1f73fe0-c986-4638-87df-d9c3b87bbfd7" alt="Image" style="max-width: 100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/66ba2281-7bf7-42c2-917a-d62ec9550982"><img src="https://github.com/user-attachments/assets/66ba2281-7bf7-42c2-917a-d62ec9550982" alt="Image" style="max-width: 100%;"></a><br>
+保存并应用，选择更改（90s未登录还原luci登录地址192.168.1.1）用192.168.31.8登录luci界面</p>
+<h2>配置好后概览处eth1（lan口）有ipv4地址临时性DNS114.114.114.114。上网成功！</h2></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
